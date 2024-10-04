@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>21</java.version>
 		<org.mapstruct.version>1.6.0</org.mapstruct.version>
 	</properties>
 	<dependencies>
@@ -95,8 +95,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<source>20</source> <!-- mudar de acordo com o seu java -->
-					<target>20</target> <!-- mudar de acordo com o seu java -->
+					<source>21</source> <!-- mudar de acordo com o seu java -->
+					<target>21</target> <!-- mudar de acordo com o seu java -->
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
